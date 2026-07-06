@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)]()
 
-这是一个教学目的的微型 RTOS 内核模拟器，在桌面环境中通过 tick 驱动和协作式任务切换，完整复现了嵌入式实时内核的核心调度与 IPC 机制。不需要开发板，不需要交叉编译，任何有 C++17 编译器的平台都能运行。
+这是一个微型 RTOS 内核模拟器，在桌面环境中通过 tick 驱动和协作式任务切换，完整复现了嵌入式实时内核的核心调度与 IPC 机制。不需要开发板，不需要交叉编译，任何有 C++17 编译器的平台都能运行。
 
 ```
   ╔══════════════════════════════════════════════════╗
