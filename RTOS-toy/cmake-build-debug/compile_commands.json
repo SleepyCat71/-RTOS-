@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/81432/CLionProjects/untitled1/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\rtos-toy.dir\\src\\main.cpp.obj -c C:\\Users\\81432\\CLionProjects\\untitled1\\src\\main.cpp",
+  "file": "C:/Users/81432/CLionProjects/untitled1/src/main.cpp",
+  "output": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rtos-toy.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/81432/CLionProjects/untitled1/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\rtos-toy.dir\\src\\kernel\\task.cpp.obj -c C:\\Users\\81432\\CLionProjects\\untitled1\\src\\kernel\\task.cpp",
+  "file": "C:/Users/81432/CLionProjects/untitled1/src/kernel/task.cpp",
+  "output": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rtos-toy.dir/src/kernel/task.cpp.obj"
+},
+{
+  "directory": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/81432/CLionProjects/untitled1/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\rtos-toy.dir\\src\\kernel\\ipc.cpp.obj -c C:\\Users\\81432\\CLionProjects\\untitled1\\src\\kernel\\ipc.cpp",
+  "file": "C:/Users/81432/CLionProjects/untitled1/src/kernel/ipc.cpp",
+  "output": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rtos-toy.dir/src/kernel/ipc.cpp.obj"
+},
+{
+  "directory": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/81432/CLionProjects/untitled1/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\rtos-toy.dir\\src\\kernel\\scheduler.cpp.obj -c C:\\Users\\81432\\CLionProjects\\untitled1\\src\\kernel\\scheduler.cpp",
+  "file": "C:/Users/81432/CLionProjects/untitled1/src/kernel/scheduler.cpp",
+  "output": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rtos-toy.dir/src/kernel/scheduler.cpp.obj"
+},
+{
+  "directory": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/81432/CLionProjects/untitled1/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\rtos-toy.dir\\src\\kernel\\kernel.cpp.obj -c C:\\Users\\81432\\CLionProjects\\untitled1\\src\\kernel\\kernel.cpp",
+  "file": "C:/Users/81432/CLionProjects/untitled1/src/kernel/kernel.cpp",
+  "output": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rtos-toy.dir/src/kernel/kernel.cpp.obj"
+},
+{
+  "directory": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/81432/CLionProjects/untitled1/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\rtos-toy.dir\\src\\viz\\console_viz.cpp.obj -c C:\\Users\\81432\\CLionProjects\\untitled1\\src\\viz\\console_viz.cpp",
+  "file": "C:/Users/81432/CLionProjects/untitled1/src/viz/console_viz.cpp",
+  "output": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rtos-toy.dir/src/viz/console_viz.cpp.obj"
+},
+{
+  "directory": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/81432/CLionProjects/untitled1/include -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\rtos-toy.dir\\src\\demo_scenarios.cpp.obj -c C:\\Users\\81432\\CLionProjects\\untitled1\\src\\demo_scenarios.cpp",
+  "file": "C:/Users/81432/CLionProjects/untitled1/src/demo_scenarios.cpp",
+  "output": "C:/Users/81432/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rtos-toy.dir/src/demo_scenarios.cpp.obj"
+}
+]
