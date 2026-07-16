@@ -56,26 +56,25 @@ ConsoleViz模块：console_viz.h/cpp。负责ANSI 清屏 + 状态表 + 甘特图
 
 
 ## 演示场景详解
-### 场景 1: FIFO Round-Robin
+### 场景 1: 时间片轮转
 
 三个优先级相同的任务（Sensor/Controller/Reporter），使用 FIFOScheduler 时间片 = 3 ticks。每 tick 检查时间片计数器，用完则旋转 `current_index_` 指向下一个任务。
 
 现象：甘特图中三个任务呈均匀交替的 ▓▓▓░░░ 三段式图案。
 
-### 场景 2: Priority Preemptive
+### 场景 2: 优先级抢占
 
 三个任务优先级 1/3/5（Low/Medium/High），使用 PriorityScheduler。`pick_next()` 始终返回最高就绪优先级队首。只要 High(5) 就绪，Medium(3) 和 Low(1) 无法获得 CPU。
 
 现象：High 几乎独占 CPU，Low 和 Medium 在 High 终止后才运行。
 
-### 场景 3: Producer-Consumer（Semaphore）
+### 场景 3: 信号量
 
 共享一个初始值为 0 的 Semaphore。Producer 每 tick `signal()`，Consumer 每 tick `wait()`。当 count=0 时 Consumer 阻塞（`block_task` 移出就绪队列），Producer `signal()` 后唤醒 Consumer（`wakeup_task` 重新加入就绪队列）。
 
 现象：Consumer 状态在 READY 和 BLOCKED 之间交替，甘特图穿插 ▒（阻塞）和 ▓（运行）。
 
-### 场景 4: Priority Inheritance（Mutex）
-
+### 场景 4: 优先级反转
 演示经典优先级反转问题及其解决：
 
 1. Low(1) 获得 Mutex 锁
